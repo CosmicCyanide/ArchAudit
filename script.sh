@@ -23,7 +23,7 @@ header() {
   / _ \| |  _| |     | | | || |/ __| __| |/ _ \| '_ \ 
  / ___ \ |_| | |___  | |_| || | (__| |_| | (_) | | | |
 /_/   \_\____|_____| |____/ |_|\___|\__|_|\___/|_| |_|
-   Arch Linux System Audit Script - Coscmic Cyanide
+   Arch Linux System Audit Script - Cosmic Cyanide
 EOF
     echo -e "${NC}"
 }
