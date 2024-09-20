@@ -22,61 +22,44 @@ Required Packages
 
     checkupdates: To check for available updates.
 
-    bash
 
-sudo pacman -Syu
+```sudo pacman -Syu```
 
 arch-audit: To scan for vulnerabilities in installed packages.
 
-bash
 
-sudo pacman -S arch-audit
+```sudo pacman -S arch-audit```
 
 sysstat: Provides sar for system performance statistics.
 
-bash
 
-sudo pacman -S sysstat
+```sudo pacman -S sysstat```
 
 dstat: A versatile resource statistics tool.
 
-bash
-
-sudo pacman -S dstat
+```sudo pacman -S dstat```
 
 ufw: Uncomplicated Firewall for managing firewall rules.
 
-bash
-
-sudo pacman -S ufw
+```sudo pacman -S ufw```
 
 cronie: A cron daemon for scheduling tasks.
 
-bash
-
-sudo pacman -S cronie
+```sudo pacman -S cronie```
 
 docker: Containerization platform for managing containers.
 
-bash
-
-sudo pacman -S docker
+```sudo pacman -S docker```
 
 smartmontools: To monitor SSD/HDD health.
 
-bash
-
-sudo pacman -S smartmontools
+```sudo pacman -S smartmontools```
 
 git: For version control and change tracking.
 
-bash
-
-sudo pacman -S git
+```sudo pacman -S git```
 
 nload: Network traffic monitoring tool.
-
-bash
 
     sudo pacman -S nload
 
@@ -86,8 +69,8 @@ Installation
 
     bash
 
-git clone https://github.com/yourusername/arch-linux-audit-script.git
-cd arch-linux-audit-script
+```git clone https://github.com/yourusername/arch-linux-audit-script.git
+cd arch-linux-audit-script```
 
 Make the script executable:
 
