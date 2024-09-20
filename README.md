@@ -65,16 +65,10 @@ nload: Network traffic monitoring tool.
 
 Installation
 
-    Clone the repository:
-
-    bash
-
-```git clone https://github.com/yourusername/arch-linux-audit-script.git
-cd arch-linux-audit-script```
+```git clone https://github.com/yourusername/arch-linux-audit-script.git```
+```cd arch-linux-audit-script```
 
 Make the script executable:
-
-bash
 
     chmod +x audit_script.sh
 
@@ -82,12 +76,11 @@ Usage
 
 To run the audit script, execute the following command:
 
-bash
-
-./audit_script.sh
+```./audit_script.sh```
 
 You will be presented with a menu of options. Choose the corresponding number for the audit or check you wish to perform.
 Features Breakdown
+
 
     System Info: Retrieves and displays system hostname, kernel version, uptime, and available updates.
     Package Audit: Checks for outdated, orphaned, and vulnerable packages.
